@@ -1,0 +1,6 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "mounts": [
+    "source=fuchsia-checkout,target=/workspaces/fuchsia/fuchsia-checkout,type=volume"
+  ]
+}
